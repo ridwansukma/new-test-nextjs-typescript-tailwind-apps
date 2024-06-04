@@ -30,7 +30,7 @@ export default function Menus() {
 
     return (
         <div className="fixed z-50 w-full">
-            <div className="container mx-auto px-5 md:px-0">
+            <div className="container mx-auto px-5 lg:px-0">
                 <div className="navbar bg-white text-black px-5 md:py-3 mt-8 rounded-3xl">
                     <div className="navbar-start">
                         <div className="dropdown">

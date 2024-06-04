@@ -11,7 +11,7 @@ export default function Headers() {
 
             <div className="relative flex h-screen justify-start items-center z-30">
                 <div className="container mx-auto flex flex-row mt-10">
-                    <div className="w-full md:w-7/12 px-7 mt-20">
+                    <div className="w-full lg:w-7/12 px-7 mt-20">
                         <h1 className="text-3xl md:text-5xl font-bold mb-5 capitalize">MyCompany</h1>
                         <p className="text-sm md:text-md text-justify leading-5 md:leading-6">{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. `}</p>
                         <Link href="#about" className="btn w-full md:w-56 mt-10 bg-orange-400 text-white border-orange-400 hover:bg-orange-500 hover:border-orange-500 rounded-3xl">

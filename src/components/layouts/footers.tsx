@@ -6,7 +6,7 @@ export default function Footers() {
         <footer>
             <div className="w-full min-h-max py-14 bg-orange-950">
                 <div className="container mx-auto">
-                    <div className="grid md:grid-cols-3 md:gap-5 px-10 md:px-0">
+                    <div className="grid md:grid-cols-3 md:gap-5 px-10 md:px-14 lg:px-0">
                         <div>
                             <Image
                                 src="/assets/logo-text.png"
@@ -16,8 +16,8 @@ export default function Footers() {
                                 height={50}
                                 priority
                             />
-                            <p>(+62) 221 345 678</p>
-                            <p className="pr-10">Merdeka Square, RW.2, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110</p>
+                            <p className="text-sm md:text-xs lg:text-sm">(+62) 221 345 678</p>
+                            <p className="pr-10 text-sm md:text-xs lg:text-sm">Merdeka Square, RW.2, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110</p>
                         </div>
                         <hr className="my-5 block md:hidden" />
                         <div>

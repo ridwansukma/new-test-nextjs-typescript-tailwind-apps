@@ -54,7 +54,7 @@ export default function Product() {
                         <div className="text-black flex flex-col justify-center items-center">
                             <h1 className="mb-10 text-3xl text-orange-400">Product <span className="font-bold text-4xl">MyCompany</span></h1>
 
-                            <div className="w-full grid gap-5 grid-cols-2 md:grid-cols-4">
+                            <div className="w-full grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                                 {product && product?.length > 0 && product?.map(({ id, name, image }: ProductItem) => {
                                     return (
                                         <div className="card card-compact shadow-xl" key={id}>

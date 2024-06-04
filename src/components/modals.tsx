@@ -13,21 +13,21 @@ export default function Modals({ dataModal }: any) {
         <>
             <input type="checkbox" id="ModalComponent" className="modal-toggle" />
             <div className="modal" role="dialog">
-                <div className="modal-box w-11/12 max-w-3xl bg-white grid md:gap-5 md:grid-cols-2">
-                    <div className="flex md:hidden justify-end items-start mb-2">
+                <div className="modal-box w-11/12 max-w-3xl bg-white grid lg:gap-5 lg:grid-cols-2">
+                    <div className="flex lg:hidden justify-end items-start mb-2">
                         <label className="cursor-pointer" htmlFor="ModalComponent">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                         </label>
                     </div>
-                    <figure className="mb-5 md:mb-0">
+                    <figure className="mb-5 lg:mb-0">
                         <img src={image || '/assets/about-icon.png'} alt={name || ''} className="w-full h-full object-cover object-center rounded-md" />
                     </figure>
                     <div>
                         <div className="flex justify-between items-start">
                             <h3 className="text-lg font-bold">{name || '-'}</h3>
-                            <label className="hidden md:block cursor-pointer" htmlFor="ModalComponent">
+                            <label className="hidden lg:block cursor-pointer" htmlFor="ModalComponent">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                                 </svg>

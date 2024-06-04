@@ -12,7 +12,7 @@ export default function About() {
                         <Image
                             src="/assets/about-icon.png"
                             alt="About Icon"
-                            className="hidden md:block"
+                            className="hidden md:hidden lg:block"
                             width={350}
                             height={350}
                             priority
@@ -20,7 +20,14 @@ export default function About() {
                         <Image
                             src="/assets/about-icon.png"
                             alt="About Icon"
-                            className="block md:hidden"
+                            className="hidden md:block lg:hidden"
+                            width={250}
+                            height={250}
+                            priority
+                        /><Image
+                            src="/assets/about-icon.png"
+                            alt="About Icon"
+                            className="block md:hidden lg:hidden"
                             width={150}
                             height={150}
                             priority
