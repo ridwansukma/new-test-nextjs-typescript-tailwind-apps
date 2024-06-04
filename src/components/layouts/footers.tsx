@@ -10,7 +10,7 @@ export default function Footers() {
                         <div>
                             <Image
                                 src="/assets/logo-text.png"
-                                alt="Logo Company"
+                                alt="Logo MyCompany"
                                 className="min-w-32"
                                 width={150}
                                 height={50}

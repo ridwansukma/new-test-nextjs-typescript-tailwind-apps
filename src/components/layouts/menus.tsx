@@ -48,7 +48,7 @@ export default function Menus() {
                         <Link href="#home" className="flex justify-center items-center text-xl">
                             <Image
                                 src="/assets/logo.png"
-                                alt="Logo Company"
+                                alt="Logo MyCompany"
                                 className=""
                                 width={50}
                                 height={50}
@@ -56,7 +56,7 @@ export default function Menus() {
                             />
                             <Image
                                 src="/assets/logo-text.png"
-                                alt="Logo Company"
+                                alt="Logo MyCompany"
                                 className="ml-3 min-w-32"
                                 width={150}
                                 height={50}

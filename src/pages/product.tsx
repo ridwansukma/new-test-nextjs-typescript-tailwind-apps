@@ -61,11 +61,11 @@ export default function Product() {
                                             <figure><img src={image || '/assets/about-icon.png'} alt={name || ''} className="w-full h-52 object-cover object-center" /></figure>
                                             <div className="card-body">
                                                 {/* desktop */}
-                                                <h2 className="hidden md:block card-title">{name !== null ? (name?.substr(0, 21) + (name?.length > 20 ? '...' : '')) : '-'}</h2>
+                                                <h2 className="hidden md:block card-title">{id !== null ? id + '.' : ''} {name !== null ? (name?.substr(0, 21) + (name?.length > 20 ? '...' : '')) : '-'}</h2>
                                                 <p className="hidden md:block ">{`Lorem Ipsum is simply dummy text of the printing and typesetting industry...`}</p>
 
                                                 {/* mobile */}
-                                                <h2 className="block md:hidden card-title">{name !== null ? (name?.substr(0, 17) + (name?.length > 17 ? '...' : '')) : '-'}</h2>
+                                                <h2 className="block md:hidden card-title">{id !== null ? id + '.' : ''} {name !== null ? (name?.substr(0, 17) + (name?.length > 17 ? '...' : '')) : '-'}</h2>
                                                 <p className="block md:hidden">{`Lorem Ipsum is simply dummy text of the print...`}</p>
                                                 <div className="card-actions justify-end mt-3">
                                                     <label
