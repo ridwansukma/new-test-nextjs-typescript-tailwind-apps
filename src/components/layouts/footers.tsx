@@ -16,11 +16,11 @@ export default function Footers() {
                                 height={50}
                                 priority
                             />
-                            <p className="text-sm md:text-xs lg:text-sm">(+62) 221 345 678</p>
-                            <p className="pr-10 text-sm md:text-xs lg:text-sm">Merdeka Square, RW.2, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110</p>
+                            <p className="text-white text-sm md:text-xs lg:text-sm">(+62) 221 345 678</p>
+                            <p className="text-white pr-10 text-sm md:text-xs lg:text-sm">Merdeka Square, RW.2, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110</p>
                         </div>
                         <hr className="my-5 block md:hidden" />
-                        <div>
+                        <div className="text-white">
                             <h2 className="mb-2 md:mb-5 font-bold text-xl">Menu</h2>
                             <ul className="leading-9">
                                 <li><Link href="#home">Home</Link></li>
@@ -31,7 +31,7 @@ export default function Footers() {
                         </div>
                         <hr className="my-5 block md:hidden" />
                         <div>
-                            <h2 className="mb-3 md:mb-5 font-bold text-xl">Follow US</h2>
+                            <h2 className="text-white mb-3 md:mb-5 font-bold text-xl">Follow US</h2>
                             <div className="flex flex-row">
                                 <Link href="https://www.facebook.com/" target="_blank" className="mr-3">
                                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256" className="size-10">
@@ -62,7 +62,7 @@ export default function Footers() {
                     </div>
                 </div>
             </div>
-            <div className="w-full flex justify-center items-center py-5 bg-orange-900 text-sm">Copyright &copy; 2024&nbsp;<span className="italic text-xs">Created By Ridwan Sukma</span></div>
+            <div className="text-white w-full flex justify-center items-center py-5 bg-orange-900 text-sm">Copyright &copy; 2024&nbsp;<span className="italic text-xs">Created By Ridwan Sukma</span></div>
         </footer>
     );
 }
